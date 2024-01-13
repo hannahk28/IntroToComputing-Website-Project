@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>University Website</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+ 
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+       <!-- <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,500;1,300&family=Poppins:wght@200;400;500;600&family=Spectral&display=swap" rel="stylesheet">--->
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,500;1,300&family=Poppins:wght@200;400;500;600&family=Spectral:wght@300;400&display=swap" rel="stylesheet">
+
+       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    </head>
+    <body>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed&family=Open+Sans:ital,wght@0,300;0,500;1,300&family=Poppins:wght@200;400;500;600&family=Spectral:wght@300;400&display=swap" rel="stylesheet">
+
+        <section class="sub-header">
+            <nav>
+                <a href="index.html" class="logo-link"><img src="img/hkkh.png" class="logo"> </a>
+
+
+                <div class="nav-links" id="navlinks">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul class="menu">
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="about.html">ABOUT</a></li>
+                        <li><a href="course.html">COURSE</a></li>
+                        <li><a href="admission.html">ADMISSIONS</a></li>
+                        <li><a href="contact.html">CONTACT</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars"onclick="showMenu()"></i>
+            </nav>
+        <h1>Admisssions</h1>
+        </section>
+        
+<!-------------about us content--------------->
+<!-- <div class="contact-col">
+    <form action="form-handler.php" method="post">
+        <label for="name">Enter your name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Enter email address:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="subject">Enter your subject:</label>
+        <input type="text" id="subject" name="subject" required>
+
+        <label for="message">Message:</label>
+        <textarea rows="8" id="message" name="message" placeholder="Message" required></textarea>
+
+        <button type="submit" class="hero-btn red-btn">Send Message</button>
+    </form>
+</div> -->
+
+<section class="admissions-section">
+    <div class="container">
+        <p>Explore our programs and start your academic journey with us.<br> Admissions are open for the upcoming
+            semester.</p>
+</div>
+<div class="roww">
+            <form action="form-handler.php" method="post">
+                <h2>Registration Form</h2></div>
+                <div class="coll">
+                <label for="fname">First Name:</label>
+                <input type="text" id="fname" name="fname" required>
+    
+                <label for="lname">Last Name:</label>
+                <input type="text" id="lname" name="lname" required>
+    
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+    
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+    
+                <label for="confirm-password">Confirm Password:</label>
+                <input type="password" id="confirm-password" name="confirm-password" required>
+    
+                <label for="dob">Date of Birth:</label>
+                <input type="date" id="dob" name="dob" required>
+    
+                <label for="gender">Gender:</label>
+                <select id="gender" name="gender" required>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                    <option value="other">Other</option>
+                </select>
+    
+                <button type="submit">Register</button>
+            </form>
+        </div>
+    </div>
+</div>
+<style>
+    @media (max-width: 600px) {
+        form {
+            max-width: 40%; /* Allow the form to take full width on smaller screens */
+        }
+    }
+    
+    /* Media query for screens up to 400px */
+    @media (max-width: 400px) {
+        .coll {
+            padding: 0 5px; /* Add some horizontal padding to the form elements */
+        }
+    }
+</style>
+</section>
+
+
+
+
+<div class="content">
+    <h1>Frequently Asked Questions</h1>
+    <p class="excerpt">HOW DO I APPLY? <span class="read-more">+</span></p>
+    <div class="full-text">
+        <p>
+1.	Submit complete requirements and admissions fee of P500 to the Admissions Office at least two weeks before the entrance exam date.<br><br>
+2.	An interview with a member of upper management or faculty will be schedule after the submission of initial admissions requirements.<br><br>
+3.	Admissions decisions are based on the initial admissions requirements and interview, taken as a whole. All candidates shall be informed of the decision in writing.<br>
+        </p>
+        <span class="read-less">-</span>
+    </div>
+    <p class="excerpt">WHAT ARE THE ADMISSION REQUIREMENTS?<span class="read-more">+</span></p>
+    <div class="full-text">
+        <p>
+            For Highschool Graduates<br><br>
+Application Requirements<br>
+•	Completed application form https://www.HannahKayeUniversity.com/online-application/<br>
+•	Photocopy of latest report card<br>
+•	Essay (300 words or less) Please answer one question:”Some students have a background, identity, interest, or talent that is so meaningful, they believe their application would be incomplete without it. If this sounds like you, please share your story.””Describe a problem you’ve solved or a problem you would like to solve. Explain its significance to you, and what steps you took, or could be taken to identify a solution.” ”Discuss an accomplishment, event, or realization that sparked a period of personal growth, and a new understanding of yourself or others.”<br>
+•	Photocopy of Passport<br>
+•	Photocopy of Birth Certificate<br>
+•	Recommendation letter from homeroom adviser or guidance counselor https://www.HannahKayeUniversity.com/download-forms/<br>
+•	Two recent 2″x2″ photos<br>
+•	Curriculum vitae<br><br>
+Upon Enrollment <br><br>
+•	Original copy of report card (Form 138)<br>
+•	Official copy of TOR / FORM 137 (school to school transaction)<br>
+** Additional Requirements for Filipino students coming from schools abroad Application Requirements<br>
+•	Police or NBI clearance<br>
+•	2 Recommendation letters<br><br>
+Upon Enrollment<br><br>
+•	Certificate of Good Moral Character<br>
+•	Official Transcript of records of last school attended. Authenticated by the Philippine Embassy at the school’s country of origin or the Embassy at the school’s country of origin here in the Philippines (except for Philippine schools). Transcript should state the student’s graduation/eligibility for college.<br>
+•	Certificate of Graduation/Eligibility for College (if graduation is not stated in Transcript). Authenticated by the Philippine Embassy at the school’s country of origin or the Embassy at the school’s country of origin here in the Philippines (except for Philippine schools)<br>
+** Additional Requirements for Foreign students from local schools<br><br>
+Application Requirements  <br><br>
+•	Photocopy of passport<br><br>
+Upon Enrollment<br>
+•	For Dual Citizens: Submission of both copies of the passports or Philippine citizen recognition papers<br>
+•	Visa Acknowledgement form<br>
+•	Student Information sheet<br>
+•	Personal History statement<br>
+•	Affidavit of support<br><br>
+**Additional requirements for Foreign students from schools abroad<br><br>
+Application Requirements<br>
+•	Police Clearance<br>
+•	Photocopy of passport<br>
+Upon Enrollment<br><br>
+•	Official Transcript of records of last school attended. Authenticated by the Philippine Embassy at the school’s country of origin or the Embassy at the school’s country of origin here in the Philippines (except for Philippine schools). Transcript should state the student’s graduation/eligibility for college.<br>
+•	Certificate of Graduation/Eligibility for College (if graduation is not stated in Transcript). Authenticated by the Philippine Embassy at the school’s country of origin or the Embassy at the school’s country of origin here in the Philippines (except for Philippine schools)<br>
+•	For Dual Citizens: Submission of both copies of the passports or Philippine citizen recognition papers<br>
+•	Visa Acknowledgement form<br>
+•	Student Information sheet<br>
+•	Personal History statement<br>
+•	Affidavit of support<br><br>
+For Transferees<br><br>
+1.	Completed application form https://www.HannahKayeUniversity.com/online-application/<br>
+2.	Transcript of records (for evaluation purposes)<br>
+3.	Essay (300 words or less) Please answer one question:”Some students have a background, identity, interest, or talent that is so meaningful, they believe their application would be incomplete without it. If this sounds like you, please share your story.””Describe a problem you’ve solved or a problem you would like to solve. Explain its significance to you, and what steps you took, or could be taken to identify a solution.””Discuss an accomplishment, event, or realization that sparked a period of personal growth, and a new understanding of yourself or others.” <br>
+4.	Photocopy of Birth Certificate<br>
+5.	Recommendation letter from homeroom adviser or guidance counselor https://www.HannahKayeUniversity.com/download-forms/<br>
+6.	Two recent 2″x2″ photos<br>
+7.	Curriculum vitae<br><br>
+Upon Enrollment<br><br>
+•	Certificate of Good Moral Character<br>
+•	Official Transcript of Records from the last school attended<br>
+•	Certificate of Transfer Credentials<br>
+•	Syllabi from the subjects taken at previous school<br>
+•	For Dual Citizens: Submission of both copies of the passports or Philippine citizen recognition papers<br><br>
+**  Additional requirements for Foreign students from schools abroad<br><br>
+ Application requirements<br>
+•	Photocopy of passport<br>
+•	Police Clearance<br><br>
+Upon Enrollment<br><br>
+•	Official Transcript of records of last school attended. Authenticated by the Philippine Embassy at the school’s country of origin or the Embassy at the school’s country of origin here in the Philippines (except for Philippine schools). Transcript should state the student’s graduation/eligibility for college.<br>
+•	Certificate of Graduation/Eligibility for College (if graduation is not stated in Transcript) Authenticated by the Philippine Embassy at the school’s country of origin or the Embassy at the school’s country of origin here in the Philippines (except for Philippine schools)<br>
+•	For Dual Citizens: Submission of both copies of the passports or Philippine citizen recognition papers<br>
+•	Visa Acknowledgement form<br>
+•	Student Information sheet<br>
+•	Personal History statement<br>
+•	Affidavit of support<br>
+
+        </p>
+        <span class="read-less">-</span>
+    </div>
+</div>
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+    const readMoreButton = document.querySelector('.read-more');
+    const readLessButton = document.querySelector('.read-less');
+    const fullText = document.querySelector('.full-text');
+
+    readMoreButton.addEventListener('click', function () {
+        fullText.style.display = 'block';
+        readMoreButton.style.display = 'none';
+        readLessButton.style.display = 'inline';
+    });
+
+    readLessButton.addEventListener('click', function () {
+        fullText.style.display = 'none';
+        readMoreButton.style.display = 'inline';
+        readLessButton.style.display = 'none';
+    });
+});
+
+document.addEventListener('DOMContentLoaded', function () {
+    const readMoreButtons = document.querySelectorAll('.read-more');
+    const readLessButtons = document.querySelectorAll('.read-less');
+
+    readMoreButtons.forEach(button => {
+        button.addEventListener('click', function () {
+            const fullText = this.parentElement.nextElementSibling;
+            fullText.classList.toggle('expanded');
+        });
+    });
+
+    readLessButtons.forEach(button => {
+        button.addEventListener('click', function () {
+            const fullText = this.parentElement;
+            fullText.classList.remove('expanded');
+        });
+    });
+});
+
+
+
+</script>
+
+
+<footer>
+    <div class="wor">
+        <div class="loc">
+            <img src="img/hkkh.png" class="logo">
+        </div>
+
+        <div class="loc">
+            <h3>About Me <div class="underline"><span></span></div></h3>
+            <p>Hello. My name is Hannah kaye S. Famador. I'm an aspiring programmer & developer.
+                This website is only for educational purposes. This is specifically for my computer science project.
+                Disclaimer: None of the information shown is true. </p>
+        </div>
+
+        <div class="loc">
+            <h3>Contact <div class="underline"><span></span></div></h3>
+            <p>Abcd Road</p>
+            <p>asdfg, PIN 1234, Phil</p>
+            <p class="email-id">s.hakasifamador@usm.edu.ph</p>
+            <h4>+639268315101</h4>
+        </div>
+
+            <div class="loc">
+                <h3>Newsletter <div class="underline"><span></span></div></h3>
+                <form>
+                    <i class="fas fa-envelope"></i>
+                    <input type="email" placeholder="        Enter your email id" required>
+                    <button type="submit"><i class="fas fa-arrow-right"></i></button>
+                </form>
+                <div class="social-icons">
+                <a href="#" target="_blank" title="Facebook"><i class="fab fa-facebook-square"></i></a>
+                <a href="#" target="_blank" title="Twitter"><i class="fab fa-twitter-square"></i></a>
+                <a href="#" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                <a href="#" target="_blank" title="Instagram"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <p class="copyright">&copy 2023 Hannah Kaye University - All Rights Reserved</p>
+</footer>
+
+
+
+<!-----------JavaScript for Toggle Menu--------->
+<script>
+
+var navlinks = document.getElementById("navLinks");
+
+function showMenu(){
+    navLinks.style.right = "0";
+}
+function hideMenu(){
+    navLinks.style.right = "-200px";
+}
+
+</script>
+
+
+    </body>
+    <!-- Add this script at the end of your body tag -->
+<script>
+    const navIcon = document.querySelector('.fa-bars');
+    const closeIcon = document.querySelector('.fa-times');
+    const navLinks = document.querySelector('.nav-links');
+
+    navIcon.addEventListener('click', () => {
+        navLinks.classList.toggle('show');
+    });
+
+    closeIcon.addEventListener('click', () => {
+        navLinks.classList.remove('show');
+    });
+</script>
+
+</html>
+
+

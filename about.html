@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>University Website</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+ 
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+       <!-- <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,500;1,300&family=Poppins:wght@200;400;500;600&family=Spectral&display=swap" rel="stylesheet">--->
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,500;1,300&family=Poppins:wght@200;400;500;600&family=Spectral:wght@300;400&display=swap" rel="stylesheet">
+
+       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    </head>
+    <body>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed&family=Open+Sans:ital,wght@0,300;0,500;1,300&family=Poppins:wght@200;400;500;600&family=Spectral:wght@300;400&display=swap" rel="stylesheet">
+
+        <section class="sub-header">
+            <nav>
+                <a href="index.html" class="logo-link"><img src="img/hkkh.png" class="logo"> </a>
+
+
+                <div class="nav-links" id="navlinks">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul class="menu">
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="about.html">ABOUT</a></li>
+                        <li><a href="course.html">COURSE</a></li>
+                        <li><a href="admission.html">ADMISSIONS</a></li>
+                        <li><a href="contact.html">CONTACT</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars"onclick="showMenu()"></i>
+            </nav>
+            <h1>About Us</h1>
+
+        </section>
+<!-------------about us content--------------->
+
+<section class="about-us">
+    <!-- <h1>Undergraduate</h1> -->
+    <img src="img/kkkk.jpg">
+<style>
+    .about-us img{
+        margin-top: 2%;
+    }
+</style>
+    <div class="ro">
+    <div class="co">
+        
+    <h1>Our Story</h1>
+    <div class="contentt">
+        <p id="paragraph">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        </p>
+        <a href="#" id="readMoreLink">Read More</a>
+        <style>
+            #paragraph {
+                max-height: 120px;
+                overflow: hidden;
+                transition: max-height 0.5s ease;
+            }
+            
+            #paragraph.expanded {
+                max-height: none;
+            }
+            
+            #readMoreLink {
+                display: block;
+                color: rgb(9, 152, 7);
+                cursor: pointer;
+                text-decoration: underline;
+                margin-left: 35%;
+                font-size: 29px;
+            }
+        </style>
+        <script>
+            document.addEventListener('DOMContentLoaded', function () {
+                const paragraph = document.getElementById('paragraph');
+                const readMoreLink = document.getElementById('readMoreLink');
+            
+                readMoreLink.addEventListener('click', function (event) {
+                    event.preventDefault();
+                    paragraph.classList.toggle('expanded');
+            
+                    if (paragraph.classList.contains('expanded')) {
+                        readMoreLink.innerText = 'Read Less';
+                    } else {
+                        readMoreLink.innerText = 'Read More';
+                    }
+                });
+            });
+              
+        </script>
+    </div>
+    <!-- <div class="cob"> -->
+    <h1>Message from the President</h1>
+     <p> 
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    </p>
+    <a href="#" id="readMoreLink">Read More</a>
+</div>
+    <div class="coa">
+    <h1>History</h1>
+  <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+    </p><a href="#" id="readMoreLink">Read More</a>
+</div>
+    </div>
+    </div>
+    </section>
+    <section>
+<div class="contain">
+    <div class="box green">
+        <h1>No. 3</h1>
+        <p>Best Career Placement</p>
+    </div>
+    <div class="box green">
+        <h1>No. 1</h1>
+        <p>Best Undergrad Engineering program</p>
+    </div>
+    <div class="box green">
+        <h1>No. 2</h1>
+        <p>Highest Mid-Career</p>
+    </div>
+    <div class="box green">
+        <h1>No. 1</h1>
+        <p>Best University in Mindanao Philippines </p>
+    </div>
+    <div class="box green">
+        <h1>No. 2</h1>
+        <p>Best University in the Philipines</p>
+    </div>
+    <div class="box green">
+        <h1>No. 10</h1>
+        <p>Best University in the World</p>
+    </div>
+</div>
+
+
+
+</section>
+<style>
+    @media (max-width: 768px) {
+        .co,
+        .coa,
+        .box {
+            flex: 1; /* On smaller screens, each column and box takes up 100% of the width */
+        }
+        .about-us{
+            padding-top: 10%;
+            font-size: 15px;
+            text-align: center;
+            margin-left: 0%;
+        }
+        .about-us img{
+            margin-left: 0;
+            
+        }
+        .about-us h1{
+            font-size: 18px;
+        }
+    }
+</style>
+
+<!----------Footer---------->
+
+<footer>
+    <div class="wor">
+        <div class="loc">
+            <img src="img/hkkh.png" class="logo">
+        </div>
+
+        <div class="loc">
+            <h3>About Me <div class="underline"><span></span></div></h3>
+            <p>Hello. My name is Hannah kaye S. Famador. I'm an aspiring programmer & developer.
+                This website is only for educational purposes. This is specifically for my computer science project.
+                Disclaimer: None of the information shown is true. </p>
+        </div>
+
+        <div class="loc">
+            <h3>Contact <div class="underline"><span></span></div></h3>
+            <p>Abcd Road</p>
+            <p>asdfg, PIN 1234, Phil</p>
+            <p class="email-id">s.hakasifamador@usm.edu.ph</p>
+            <h4>+639268315101</h4>
+        </div>
+
+            <div class="loc">
+                <h3>Newsletter <div class="underline"><span></span></div></h3>
+                <form>
+                    <i class="fas fa-envelope"></i>
+                    <input type="email" placeholder="        Enter your email id" required>
+                    <button type="submit"><i class="fas fa-arrow-right"></i></button>
+                </form>
+                <div class="social-icons">
+                <a href="#" target="_blank" title="Facebook"><i class="fab fa-facebook-square"></i></a>
+                <a href="#" target="_blank" title="Twitter"><i class="fab fa-twitter-square"></i></a>
+                <a href="#" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                <a href="#" target="_blank" title="Instagram"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <p class="copyright">&copy 2023 Hannah Kaye University - All Rights Reserved</p>
+</footer>
+
+
+<!-----------JavaScript for Toggle Menu--------->
+<script>
+
+var navlinks = document.getElementById("navLinks");
+
+function showMenu(){
+    navLinks.style.right = "0";
+}
+function hideMenu(){
+    navLinks.style.right = "-200px";
+}
+
+</script>
+
+
+    </body>
+    <!-- Add this script at the end of your body tag -->
+<script>
+    const navIcon = document.querySelector('.fa-bars');
+    const closeIcon = document.querySelector('.fa-times');
+    const navLinks = document.querySelector('.nav-links');
+
+    navIcon.addEventListener('click', () => {
+        navLinks.classList.toggle('show');
+    });
+
+    closeIcon.addEventListener('click', () => {
+        navLinks.classList.remove('show');
+    });
+</script>
+
+</html>
+
+
